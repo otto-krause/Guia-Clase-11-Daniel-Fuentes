@@ -5,7 +5,7 @@
     int main()
 {
     NumerosEnPantalla();
-    NumerosEnPantalla();
+    NumerosEnPantalla(); 
     return 0;
 }
 
@@ -14,5 +14,6 @@
         int num;
         printf("\nIngrese un numero ");
         scanf("%d", &num);
-        printf("El numero ingresado es %d\n", num);
+        system("cls");
+        printf("Los numero ingresados son %d\n", num);
     }
